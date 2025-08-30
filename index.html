@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Fundamentals Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>JS Fundamentals Project</h1>
+      <p>An interactive page demonstrating core JavaScript concepts.</p>
+    </header>
+
+    <!-- Part 1 & 2: JavaScript Basics & Functions -->
+    <section>
+      <h2>Part 1 & 2: Basics & Functions</h2>
+      <div class="card">
+        <h3>Number Checker</h3>
+        <p>Enter a number and see if it's positive, negative, or zero.</p>
+        <form id="numberForm">
+          <input type="number" id="numberInput" placeholder="Enter a number" required>
+          <button type="submit">Check Number</button>
+        </form>
+        <p id="numberResult" class="result"></p>
+      </div>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section>
+      <h2>Part 3: Loops</h2>
+      <div class="card">
+        <h3>Dynamic List Generator</h3>
+        <p>Click the button to generate a list of 5 items using a `for` loop.</p>
+        <button id="generateListBtn">Generate List</button>
+        <ul id="dynamicList" class="list-container"></ul>
+      </div>
+    </section>
+
+    <!-- Part 4: DOM Manipulation -->
+    <section>
+      <h2>Part 4: DOM Manipulation</h2>
+      <div class="card">
+        <h3>Content Toggler</h3>
+        <p>Click the button to toggle the visibility of the text below.</p>
+        <button id="toggleBtn">Toggle Content</button>
+        <div id="toggleContent" class="toggle-box">
+          <p>This is the content that can be hidden or shown. This interaction demonstrates a simple DOM manipulation where a class is added or removed.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
